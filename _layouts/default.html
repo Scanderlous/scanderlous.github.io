@@ -12,7 +12,8 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
 
 </head>
 
@@ -24,22 +25,25 @@
     }
   </script>
 
-  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table>
+    style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:left">
               <h1>
                 Scanderlous
               </h1>
-              <p>Scanderlous is a 3rd year <s>Ph.D candidate</s> <it>cover band</it> in <it> Music Covers </it> based in Princeton, NJ. 
+              <p>Scanderlous is a 3rd year <s>Ph.D candidate</s>
+                <it>cover band</it> in <it> Music Covers </it> based in Princeton, NJ.
                 <br>
                 Scanderlous' research interests lie at the intersection of the Jazz, Funk, Rock and Pop music styles.
                 <br>
                 Please contact us via email below for booking inquiries or other collaborations.
               </p>
-    
+
               <p style="text-align:center">
                 <a href='#' onclick='showEmail()' id='emailHolder'> Email </a> &nbsp;/&nbsp;
                 <a href="https://github.com/Scanderlous/">GitHub</a> &nbsp;/&nbsp;
@@ -57,13 +61,21 @@
             </td>
           </tr>
         </table>
+  </table>
 
-        <h2>
-          People
-          </h2>
-        
+  <table
+    style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <h2>
+        People
+      </h2>
+    </tr>
+    <tr style="padding:0px">
+      <table>
+        <tr>
           <h3>Current Students</h3>
-        
+        </tr>
+        <tr>
           <table>
             <tr><a href="">Matt Schulz</a> - Saxophone(s) </tr> <br>
             <tr><a href="">Stefan Clarke</a> - Guitarist</tr> <br>
@@ -73,83 +85,91 @@
             <tr><a href="">Dylan Blau-Edelstein</a> - Voice </tr> <br>
             <tr><a href="">Cathy Ji (Visitng)</a> - Voice </tr> <br>
           </table>
-        
+        </tr>
+        <tr>
           <h3>Alumni</h3>
           <table>
-            <tr><a href="">Maxine Peroni-Scharf</a> - Voice (now: vocalist/Ph.D. at MIT) </tr></tr>
-            <tr><a href="">Melena Laudig</a> - Voice, (now: focusing on her dissertation) </tr></tr>
-          </table>
+            <tr><a href="">Maxine Peroni-Scharf</a> - Voice (now: vocalist/Ph.D. at MIT) </tr>
+        </tr>
+        <tr><a href="">Melena Laudig</a> - Voice (now: focusing on her dissertation) </tr>
+    </tr>
+  </table>
+  
+  </tr>
+  </table>
 
-        <!-- RESEARCH POSTS-->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <!-- RESEARCH POSTS-->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr>
+      <td style="padding:2.5%;width:100%;vertical-align:middle">
+        <h2>Research</h2>
+      </td>
+    </tr>
+  </table>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:35%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td> 
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-              <br>
-              {{post.date}}
-              <br>
-              <em>{{post.venue}}</em>
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">publication</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">setlist</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-            {% if post.description %}
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <p>description</p>
-            </td>
-            {% endif %}
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
+    {% for post in site.posts %}
+    {% for cat in post.categories %}
+    {% if cat == 'research' %}
+    <tr>
+      <td style="padding:2.5%;width:35%;vertical-align:middle;min-width:120px">
+        <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+      </td>
+      <td style="padding:2.5%;width:75%;vertical-align:middle">
+        <h3>{{post.title}}</h3>
         <br>
+        {{post.authors}}
         <br>
+        {{post.date}}
         <br>
+        <em>{{post.venue}}</em>
+        <br>
+        {% if post.arxiv %}
+        <a href="{{post.arxiv}}">arxiv</a> /
+        {% endif %}
+        {% if post.website %}
+        <a href="{{post.website}}">website</a> /
+        {% endif %}
+        {% if post.paper %}
+        <a href="{{post.paper}}">publication</a> /
+        {% endif %}
+        {% if post.video %}
+        <a href="{{post.video}}">video</a> /
+        {% endif %}
+        {% if post.code %}
+        <a href="{{post.code}}">setlist</a> /
+        {% endif %}
+        {% if post.poster %}
+        <a href="{{post.poster}}">poster</a> /
+        {% endif %}
+        {% if post.slides %}
+        <a href="{{post.slides}}">slides</a> /
+        {% endif %}
+        <p></p>
+        {{ post.excerpt }}
+      </td>
+      {% if post.description %}
+      <td style="padding:2.5%;width:75%;vertical-align:middle">
+        <p>description</p>
+      </td>
+      {% endif %}
+    </tr>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </table>
+  <br>
+  <br>
+  <br>
 
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr>
       <td style="padding:0px">
         <br>
         <p style="text-align:center;font-size:small;">
-          Design and source code forked from <a href="araistrick.com"> Alexander Raistrick's fork</a> of <a href="https://leonidk.com/">Leonid Keselman's</a> <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+          Design and source code forked from <a href="araistrick.com"> Alexander Raistrick's fork</a> of <a
+            href="https://leonidk.com/">Leonid Keselman's</a> <a href="https://github.com/leonidk/new_website">Jekyll
+            fork</a> of <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
         </p>
       </td>
     </tr>
@@ -157,4 +177,3 @@
 </body>
 
 </html>
-
