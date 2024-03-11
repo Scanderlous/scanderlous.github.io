@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "<b>(Preprint coming soon)</b> Scanderlous: The Re-Scanderlousing"
-date:   2024-04-20 21:00:00 +00:00
-image: /images/dbar24.jpeg
+title:  "Scanderlous: The Re-Scanderlousing <b>(Coming soon! 4/20 at the DBar)</b>"
+image: /images/dbar24.png
 categories: research    
-authors: "Alexander Raistrick*, Lahav Lipson*, Zeyu Ma* (*equal contribution, alphabetical order), Lingjie Mei, Mingzhe Wang, Yiming Zuo, Karhan Kayan, Hongyu Wen, Beining Han, Yihan Wang, Alejandro Newell, Hei Law, Ankit Goyal, Kaiyu Yang, Jia Deng"
+authors: "Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Cathy Ji*, Matt Schulz*, Stefan Clarke*, Alexander Raistrick* (* denotes equal contribution)"
 venue: Proceedings of the Princeton Debasement Bar (DBAR 2024)
 ---
