@@ -5,7 +5,7 @@ date:   2023-04-07 21:00:00 +00:00
 image: /images/dbarbie.png
 categories: research    
 authors: "Maxine Peroni-Scharf*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (* denotes equal contribution)"
-venue: 2nd Proceedings of The Debasement Bar (DBAR), 2023
+venue: Proceedings of The Debasement Bar (DBAR), 2023
 code: https://open.spotify.com/playlist/25hTa4sOmyWnVXjbTvjdAU?si=239ba0889f404ea4
 video: https://www.youtube.com/watch?v=YnvsH7mEAlw&t=3530s
 ---

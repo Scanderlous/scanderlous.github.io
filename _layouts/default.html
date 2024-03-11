@@ -49,7 +49,7 @@
                 <a href="https://www.instagram.com/scanderlousband/"> Instagram </a> &nbsp;/&nbsp;
                 <a href="https://twitter.com/scanderlousband"> Twitter </a> &nbsp;/&nbsp;
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> CV </a> &nbsp;/&nbsp;
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> CV
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -79,7 +79,8 @@
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
-
+              <br>
+              {{post.date}}
               <br>
               <em>{{post.venue}}</em>
               <br>
@@ -90,13 +91,13 @@
               <a href="{{post.website}}">website</a> /
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              <a href="{{post.paper}}">publication</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              <a href="{{post.code}}">setlist</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
