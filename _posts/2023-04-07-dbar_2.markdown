@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Scanderlous 2, Electric Boogaloo"
+date:   2023-04-07 21:00:00 +00:00
+image: /images/dbar23.png
+categories: research    
+authors: "Maxine Peroni-Scharf*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (* denotes equal contribution)"
+venue: Proceedings of The Debasement Bar (DBAR), 2023
+code: https://open.spotify.com/playlist/1nvb4syUvHPEKyoPKbSg7y?si=b18d2986c51743a5
+video: https://www.youtube.com/watch?v=wdd-KzoqR_E
+---

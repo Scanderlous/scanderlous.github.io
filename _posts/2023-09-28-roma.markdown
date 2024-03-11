@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Scanderlous @ Rocky-Mathey College"
+date:   2023-09-28 19:30:00 +00:00
+image: /images/roma23.png
+categories: research    
+authors: "Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Melena Laudig*, Maxine Peroni-Scharf*, Matt Schulz*, Stefan Clarke*, Alexander Raistrick* (* denotes equal contribution)"
+venue: Rockerfeller/Mathey College (RoMa 2023)
+---

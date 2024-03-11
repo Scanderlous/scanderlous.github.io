@@ -20,7 +20,7 @@
 
   <script>
     function showEmail() {
-      document.getElementById('emailHolder').innerHTML = 'ude.notecnirp@kcirtsiara'.split("").reverse().join("")
+      document.getElementById('emailHolder').innerHTML = 'scanderlousband@gmail.com, mschulz@princeton.edu';
     }
   </script>
 
@@ -31,27 +31,28 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:left">
               <h1>
-                Alex Raistrick
+                Scanderlous
               </h1>
-              <p>I am a third year Ph.D candidate in Computer Science at Princeton University, advised by <a href='https://www.cs.princeton.edu/~jiadeng/'> Jia Deng</a> 
-                as a member of the <a href="https://pvl.cs.princeton.edu/"> Princeton Vision & Learning Lab</a>.
+              <p>Scanderlous is a 3rd year <s>Ph.D candidate</s> <it>cover band</it> in <it> Music Covers </it> based in Princeton, NJ. 
+                
+                Scanderlous' research interests lie at the intersection of the Jazz, Funk, Rock and Pop music styles.
+
+                Please contact us via email below for booking inquiries or other collaborations.
               </p>
-              <p>
-                I completed my undergrad in computer science at the University of Michigan, where I was fortunate to work with <a href="https://web.eecs.umich.edu/~fouhey/">David Fouhey</a> in the <a href='http://fouheylab.eecs.umich.edu/'> Fouhey AI Lab</a> and previously 
-                <a href="http://michael-nebeling.de/">Michael Nebeling</a> in the <a href="https://www.mi2lab.com/">Michigan Information Interaction Lab</a>.
-              </p>
+    
               <p style="text-align:center">
                 <a href='#' onclick='showEmail()' id='emailHolder'> Email </a> &nbsp;/&nbsp;
-                <a href="https://github.com/araistrick">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=hw7BEc0AAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="pdfs/curriculum_vitae.pdf"> CV </a> &nbsp;/&nbsp;
-                <a href="https://twitter.com/alex_raistrick"> Twitter </a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/araistrick/"> LinkedIn </a> &nbsp;/&nbsp;
+                <a href="https://github.com/Scanderlous/">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://www.youtube.com/@Scanderlous"> YouTube </a> &nbsp;/&nbsp;
+                <a href="https://soundcloud.com/matt-schulz-682964376"> SoundCloud </a> &nbsp;/&nbsp;
+                <a href="https://www.instagram.com/scanderlousband/"> Instagram </a> &nbsp;/&nbsp;
+                <a href="https://twitter.com/scanderlousband"> Twitter </a> &nbsp;/&nbsp;
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> CV </a> &nbsp;/&nbsp;
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile_circle.png">
-              <p style="text-align:center"><a href="images/profile_square.jpg">Download Profile Picture (Square)</a></p>
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile.png">
             </td>
           </tr>
         </table>
@@ -105,116 +106,26 @@
               <p></p>
               {{ post.excerpt }}
             </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
-
-        <!-- COURSEWORK POSTS-->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Coursework</h2>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'coursework' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
+            {% if post.description %}
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.course}}</em>
-              <br>
-	      {{post.authors}}
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
+              <p>description</p>
             </td>
+            {% endif %}
           </tr>
           {% endif %}
           {% endfor %}
           {% endfor %}
         </table>
+        <br>
+        <br>
+        <br>
 
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Teaching</h2>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-	  <tr>
-            <td style="padding-left:2.5%;width:75%;vertical-align:middle"> <a href="https://web.eecs.umich.edu/~nham/EECS398F19/">U-M EECS 398 - System Design of a Search Engine - Fall 2019 </a></td>
-          </tr>
-	  <tr>
-            <td style="padding-left:2.5%;width:75%;vertical-align:middle"> <a href="https://eecs280staff.github.io/eecs280.org/">U-M EECS 280 - Programming and Intro Data Structures - Winter 2019 </a></td>
-          </tr>
-	  <tr>
-            <td style="padding-left:2.5%;width:75%;vertical-align:middle"> <a href="https://eecs280staff.github.io/eecs280.org/">U-M EECS 280 - Programming and Intro Data Structures - Fall 2020 </a></td>
-          </tr>
-	  <tr>
-            <td style="padding-left:2.5%;width:75%;vertical-align:middle"> <a href="https://diversity.engin.umich.edu/k-12/summer-programs/ai4all/"> U-M AI4ALL - Summer 2021</a></td>
-          </tr>
-          <tr>
-            <td style="padding-left:2.5%;width:75%;vertical-align:middle"> Princeton COS529 - Advanced Computer Vision - Fall 2022</a></td>
-          </tr>
-	  <tr>
-            <td style="padding-left:2.5%;width:75%;vertical-align:middle"> Princeton COS324 - Introduction to Machine Learning - Spring 2023 <b>(Grad. Student Teaching Award)</b<></a></td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr>
       <td style="padding:0px">
         <br>
         <p style="text-align:center;font-size:small;">
-          Design and source code from <a href="https://leonidk.com/">Leonid Keselman's</a> <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+          Design and source code forked from <a href="araistrick.com"> Alexander Raistrick's fork</a> of <a href="https://leonidk.com/">Leonid Keselman's</a> <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
         </p>
       </td>
     </tr>
