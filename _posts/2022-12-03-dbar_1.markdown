@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scanderlous @ The DBar"
-date:   2022-12-03 
+date:   2022-12-03
 image: /images/dbar22.png
 categories: research    
 authors: "Melena Laudig*, Maxine Peroni-Scharf*, Matt Schulz*,  Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (* denotes equal contribution)"
