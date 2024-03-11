@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scanderlous @ Reunions"
-date:   2023-07-06 3:24:59 +00:00
+date:   2023-07-06
 image: /images/bob23.png
 categories: research    
 authors: "Matt Schulz*, Stefan Clarke*, Maxine Peroni-Scharf*,Samuel Day-Weiss*, Alexander Raistrick* (* denotes equal contribution)"

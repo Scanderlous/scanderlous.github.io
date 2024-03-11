@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scanderlous Recording Session"
-date:   2023-05-06 10:00:00 +00:00
+date:   2023-05-06
 image: /images/garwood.png
 categories: research    
 authors: "Maxine Peroni-Scharf*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (* denotes equal contribution)"
