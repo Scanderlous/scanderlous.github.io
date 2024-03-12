@@ -2,7 +2,7 @@
 layout: post
 title:  "Scanderlous @ The DBar"
 date:   2022-12-03
-image: /images/dbar22.png
+image: /images/dbar22.jpg
 categories: research    
 authors: "Melena Laudig*, Maxine Peroni-Scharf*, Matt Schulz*,  Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (* denotes equal contribution)"
 venue: Proceedings of The Debasement Bar (DBAR), 2022
