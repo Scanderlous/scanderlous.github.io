@@ -4,6 +4,6 @@ title:  "Scanderlous @ The DBar <b>(Coming soon! 4/20 9:30pm at the DBar)</b>"
 image: /images/dbar24.jpeg
 date:   2024-02-20
 categories: research    
-authors: "Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Cathy Ji*, Matt Schulz*, Stefan Clarke*, Alexander Raistrick* (* denotes equal contribution)"
+authors: "Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Cathy Ji*, Matt Schulz*, Stefan Clarke*, Alexander Raistrick* (*equal contribution)"
 venue: Proceedings of the Princeton Debasement Bar (DBAR 2024)
 ---

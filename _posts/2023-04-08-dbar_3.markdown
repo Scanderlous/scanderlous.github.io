@@ -4,7 +4,7 @@ title:  "Scanderlous 3, The DBar-benhimer Experience"
 date:   2023-04-07
 image: /images/dbarbie.png
 categories: research    
-authors: "Maxine Peroni-Scharf*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (* denotes equal contribution)"
+authors: "Maxine Peroni-Scharf*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (*equal contribution)"
 venue: Proceedings of The Debasement Bar (DBAR), 2023
 code: https://open.spotify.com/playlist/25hTa4sOmyWnVXjbTvjdAU?si=239ba0889f404ea4
 video: https://www.youtube.com/watch?v=YnvsH7mEAlw&t=3530s
