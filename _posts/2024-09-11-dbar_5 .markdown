@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Scanderlous @ The DBar v5 (Coming Soon, 09/07)"
+date:   2024-09-07
+categories: research    
+authors: "Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Matt Schulz*, Stefan Clarke*, Alexander Raistrick* (*equal contribution)"
+venue: Proceedings of the Debasement Bar (DBAR 2025)
+---
+    
