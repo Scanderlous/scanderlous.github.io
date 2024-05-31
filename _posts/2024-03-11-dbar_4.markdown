@@ -7,6 +7,6 @@ categories: research
 authors: "Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Cathy Ji*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (*equal contribution)"
 venue: Proceedings of the Debasement Bar (DBAR 2024)
 code: https://open.spotify.com/playlist/1WqxOmds612yp0zBu3K1dt?si=1028893a287c4be3
-video: https://youtu.be/nNMWqWQqltQ
+video: https://youtu.be/r6hfYh-2Wug
 ---
     
