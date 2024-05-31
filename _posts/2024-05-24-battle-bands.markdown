@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scanderlous @ Reunions"
+title:  "Scanderlous @ Reunions 2024"
 date:   2024-05-24
 image: /images/bob24.png
 categories: research    
