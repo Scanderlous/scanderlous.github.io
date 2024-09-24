@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Scanderlous @ The DBar v5 (Coming Soon, 09/07)"
+title:  "Scanderlous @ The DBar v5"
 date:   2024-05-30
 image: images/dbar25.png
 categories: research    
-authors: "Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (*equal contribution)"
+authors: "Dylan Blau-Edelstein*, Cathy Ji*, Mustafa Alper Gunes*, Matt Schulz*, Stefan Clarke*, Samuel Day-Weiss*, Alexander Raistrick* (*equal contribution)"
 venue: Proceedings of the Debasement Bar (DBAR 2025)
+code: https://open.spotify.com/playlist/07x4czzXYQ74OzvK2hWgue?si=cc848c036e684e4e
 ---
     
