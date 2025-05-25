@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Scanderlous @ The DBar v6 - Christmas Edition"
+date:   2024-12-06
+image: images/2024-12-06_scanderlous-christmas.png
+categories: research    
+authors: "Stefan Clarke*,  Alexander Raistrick*, Matt Schulz*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Samuel Day-Weiss*, (*equal contribution)"
+venue: Proceedings of the Debasement Bar (DBAR 2024)
+code: https://open.spotify.com/playlist/647M86skDHOHrer8PPxRjT?si=da1f5217e4684d92
+---
+    
