@@ -4,7 +4,7 @@ title:  "Scanderlous @ Grad College Formal"
 date:   2025-04-26
 image: images/2025_scanderlous-formal.jpg
 categories: research    
-authors: "Stefan Clarke*,  Alexander Raistrick*, Matt Schulz*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Samuel Day-Weiss*, (*equal contribution)"
+authors: "Stefan Clarke*, Ren Mueller*, Joe Weidemann*, Alexander Raistrick*, Matt Schulz*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Samuel Day-Weiss*, (*equal contribution)"
 venue: Proctor Hall, Graduate College
 code: https://open.spotify.com/playlist/0lqM3YQBvaxezVpAa8DeUJ?si=a0000dd9b2b04268
 ---

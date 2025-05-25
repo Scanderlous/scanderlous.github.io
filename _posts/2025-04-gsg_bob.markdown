@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Scanderlous @ GSG Battle of the Bands"
+date:   2024-12-06
+categories: research    
+authors: "Stefan Clarke*,  Ren Mueller*, Samuel Day-Weiss*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Alexander Raistrick*, Matt Schulz*, (*equal contribution)"
+venue: GSG Battle of the Bands
+code: https://open.spotify.com/playlist/1tk3tPzNQ49iPRXYqFe0fA?si=42bfe1445b7d4ca1
+---
+    
