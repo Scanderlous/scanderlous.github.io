@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scanderlous @ GSG Battle of the Bands"
-date:   2024-12-06
+image: images/2025_gsg-bob.png
 categories: research    
 authors: "Stefan Clarke*,  Ren Mueller*, Samuel Day-Weiss*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Alexander Raistrick*, Matt Schulz*, (*equal contribution)"
 venue: GSG Battle of the Bands
