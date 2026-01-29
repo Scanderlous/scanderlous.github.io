@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Scanderlous @ Grad College Formal v2"
+date:   2025-11-08
+image: images/2025_formal-2.PNG
+categories: research    
+authors: "Stefan Clarke*, Joe Weidemann*, Jesse Wisch*, Matt Schulz*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Samuel Day-Weiss*, Israel Bonilla* (*equal contribution)"
+venue: Proctor Hall, Graduate College
+code: 
+---
+    

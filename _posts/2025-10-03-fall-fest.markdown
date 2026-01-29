@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Scanderlous @ GSG Fall-fest"
+date:   2025-04-26
+image: images/2025_scanderlous-formal.jpg
+categories: research    
+authors: "Stefan Clarke*, Joe Weidemann*, Alex Raistrick*, Matt Schulz*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Samuel Day-Weiss*, Cathy Ji* (*equal contribution)"
+venue: Campus Club, Princeton University
+code: 
+---
+    
