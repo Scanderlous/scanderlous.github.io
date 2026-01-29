@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scanderlous @ GSG Fall-fest"
-date:   2025-04-26
+date:   2025-10-03
 image: images/fall_fest.JPG
 categories: research    
 authors: "Stefan Clarke*, Joe Weidemann*, Alex Raistrick*, Matt Schulz*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Samuel Day-Weiss*, Cathy Ji* (*equal contribution)"
