@@ -2,7 +2,7 @@
 layout: post
 title:  "Scanderlous @ Sam and Constance's Wedding'"
 date:   2025-06-06
-image: images/2025-wedding.jpg
+image: images/2025-wedding.PNG
 categories: research    
 authors: "Stefan Clarke*, Joe Weidemann*, Alex Raistrick*, Matt Schulz*, Dylan Blau-Edelstein*, Mustafa Alper Gunes*, Samuel Day-Weiss*, (*equal contribution)"
 venue: PAGU Restaurant, Boston, MA
